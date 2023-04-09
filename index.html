@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raxe - Discord Botu</title>
+  <link rel="stylesheet" href="assets/css/bulma.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="icon" href="images/Yeni_Proje.png">
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="assets/js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+  <!-- Back To Top Start -->
+  <a id="backtotop" data-tippy-content="Back To Top.">
+    <i class="fa-solid fa-angle-up has-text-white fa-2xl mt-5"></i>
+  </a>
+  <!-- Back To Top End -->
+
+  <!-- Navbar Start -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand mt-2 mb-2">
+      <a class="navbar-item" href="#">
+
+        <!-- or if you want to use image -->
+        <!-- <img
+            src="image link or path"
+            width="112"
+            height="28"
+          /> -->
+      </a>
+
+      <a role="button" class="navbar-burger has-text-white" data-target="navMenu" aria-label="menu"
+        aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="#" class="navbar-item is-tab">
+          Ana sayfa
+        </a>
+
+        <a href="#stats" class="navbar-item is-tab">
+          İstatistik
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="https://discord.gg/hu6XpsVxnP" class="navbar-item is-tab" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+
+        <a href="https://github.com/crewlua" class="navbar-item is-tab" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://discord.com/oauth2/authorize?client_id=1014568550935052349" class="button is-blurple">
+              <strong><i class="fa-solid fa-right-to-bracket mr-2"></i>
+                Web Panel</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero bg-base is-fullheight">
+    <div class="hero-body">
+      <div class="">
+        <div class="columns">
+          <div class="column mr-6 mt-12" data-aos="fade-up">
+            <p class="title has-text-white has-text-weight-bold">
+              <span class="multiple-text"></span>
+            </p>
+            <p class="subtitle has-text-grey-light is-size-6 mt-3">
+              Raxe, discord bot yazılımı! Sunucundaki üyeleri ücretsiz ve hızlı kayıt et. Cinsiyetli, cinsiyetsiz veya
+              kullanıcılar kendini otokayıt etsin.
+            </p>
+            <div class="buttons">
+              <a href="https://discord.com/api/oauth2/authorize?client_id=1014568550935052349&permissions=8&scope=bot" class="button is-info">
+                <strong>Davet et</strong>
+              </a>
+            </div>
+          </div>
+          <div class="column mt-6" data-aos="fade-left">
+            <img class="image has-image-centered vert-move mt-4" src="images/Yeni_Proje.png" alt="hero image"
+              style="width: 20rem;" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-text-centered" data-tippy-content="Scroll Down">
+      <a href="#features"><i class="fa-solid fa-circle-chevron-down fa-lg vert-move2 has-text-white"></i></a>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Hero Waves Start -->
+  <!-- Features Section End -->
+
+  <div class="has-text-centered" data-tippy-content="Scroll Down">
+    <a href="#gizlilik"><i class="fa-solid fa-circle-chevron-down fa-lg-vert-move2 has-text-white"></i></a>
+  </div>
+
+  <!-- Stats Section Start -->
+  <section id="stats" class="section mt-6">
+    <div class="has-text-centered">
+      <h1 class="title lined">BOT BİLGİSİ</h1>
+      <div class="line line-center blurple"></div>
+    </div>
+
+    <div class="columns mt-6">
+      <div class="column has-text-centered">
+        <p class="title has-text-weight-bold lined">75+</p>
+        <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-server"></i> Sunucu</span>
+      </div>
+
+      <div class="column has-text-centered">
+        <p class="title has-text-weight-bold lined">35+</p>
+        <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-terminal"></i> Komut</span>
+      </div>
+
+      <div class="column has-text-centered">
+        <p class="title has-text-weight-bold lined">65.000+</p>
+        <span class="subtitle has-text-weight-bold blurple"><i class="fa-solid fa-users"></i> Kullanıcı</span>
+      </div>
+    </div>
+  </section>
+  <!-- Stats Section End -->
+
+  <div class="gizlilik">
+    <strong>Raxe Gizlilik Politikası:</strong>
+    <p>
+      Raxe'yi kullanarak aşağıdaki gizlilik politikasını kabul etmiş olursunuz.
+
+      Hangi veriler saklanır?
+
+      Sunucu Verileri, Kanal Verileri, Kullanıcı verileri ve Rol Verileri saklanabilmektedir.
+
+      Veriye neden ihtiyaç duyuyorsunuz ve ne için kullanıyorsunuz?
+
+      Sunucu Verileri, (otomatik denetim, konfigürasyon ayarları vb.) için saklanır.
+
+      Kanal kimlikleri moderasyon (günlük kanalı, gelen giden kanalı vb.) ayarları için saklanır.
+
+      Rol Kimlikleri, moderasyon (otomatik rol, kayıt rolü vb.) için saklanır.
+
+      Bu verileri başkasıyla paylaşıyor musunuz?
+
+      Hayır. Kimseye verilerinizi paylaşmamaktayız.
+
+      Geliştiriciyle nasıl iletişime geçebilirim?
+
+      Destek sunucusundan(https://discord.gg/hu6XpsVxnP) Crew#0057 ile iletişime geçebilirsiniz.
+
+      Verilerinizi nasıl kaldırabilirsiniz?
+
+      Destek sunucusundan(https://discord.gg/hu6XpsVxnP) Raxe botun geliştricisi olan Crew#0057 ile iletişime geçerek
+      direkt kişisel verilerinizi kaldırabilirsiniz. Sunucu verilerini ise botu sunucudan atarak kaldırabilirsiniz.
+
+      Fakat kara liste verilerini ancak geliştirici kaldırmayı uygun görürse kaldırır.
+
+      Not: Kullanıcılarımıza haber vermeksizin bunu değiştirme hakkını saklı tutarız. Bu politika en son 16 şubat 2023
+      tarihinde güncellenmiştir.
+    </p>
+  </div>
+
+  <!-- Invite Section Start -->
+  <section class="section mt-6">
+    <div class="columns">
+      <div class="column has-text-left">
+        <p class="title has-text-weight-bold">
+          Botu kullanmaya hazırmısın <span class="blurple">Raxe seni bekler.</span>!
+        </p>
+        <p class="subtitle mt-3 has-text-gray">
+          Hemen botu sunucuna al ve kayıtlara başla!
+        </p>
+        <a href="#" class="button is-blurple is-medium"><strong><i class="fa-solid fa-book"></i> Davet et</strong></a>
+      </div>
+
+      <div class="column"></div>
+    </div>
+  </section>
+  <!-- Invite Section End -->
+
+  <!-- Footer Section Start -->
+  <footer class="footer bg-base">
+    <div class="content has-text-centered has-text-white">
+      <div class="mb-2">
+        <a href="#" class="has-text-white" target="_blank">
+          <i class="fa-brands fa-discord"></i>
+        </a>
+        &nbsp; &nbsp;
+        <a href="#" class="has-text-white" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <p>
+        <span class="has-text-weight-bold">Raxe</span>
+        <br />
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
